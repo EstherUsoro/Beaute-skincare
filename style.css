@@ -7,12 +7,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9; /* Default light background */
+    background-color: papayawhip; /* Default light background */
     color: #333; /* Default text color */
 }
 
 header {
-    background: #6a5acd; /* Initial theme color */
+    background: peachpuff; /* Initial theme color */
     color: #fff;
     padding: 10px 0;
 }
@@ -42,7 +42,7 @@ nav ul li a {
 
 .hero {
     height: 400px;
-    color: #fff;
+    color: peachpuff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +89,7 @@ section {
 }
 
 .testimonial {
-    background: #e2e2e2;
+    background: #ff7f50;;
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
