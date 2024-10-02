@@ -33,15 +33,18 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+    display: inline;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff; /* Change to white for better contrast */
+    font-weight: bold;
 }
 
 .hero {
-    height: 400px;
+    position: relative;
+    height: 100vh;
     color: peachpuff;
     display: flex;
     flex-direction: column;
@@ -50,6 +53,16 @@ nav ul li a {
     background-size: cover;
     background-position: center;
     text-align: center;
+    margin-top: 60px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5;
 }
 
 .hero-button {
@@ -67,10 +80,25 @@ section {
     margin: 20px 0;
 }
 
-.product-gallery {
+.product-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
+}
+
+product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media (max-width: 768px) 
+{
+    width: 100%;
+    text-align: center;
 }
 
 .product {
